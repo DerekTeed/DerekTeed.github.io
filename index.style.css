@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+body {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    
+    background:#dddddd;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background: white;
+    
+}
+a:link {
+    text-decoration: none;
+  }
+
+  .innerheader{
+    padding: 0px;
+}
+
+img {
+    float: left;
+    margin: 15px 0 0 20px;
+    border: 1px black solid;
+    position: relative;
+
+}
+   
+
+h2 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    height: 80px;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+    position: relative;
+    
+}
+.container {
+    max-width: 960px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+    line-height: 60px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 10px;
+}
+.container2 {
+    max-width: 960px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+/* so confused how these colors here+about_me work?*/
+    color: #4aaaa5;
+    background: #ffffff;
+    margin: 20px 0px 50px 0px;
+    align: center;
+    
+    height: 600px;
+}
+hr {
+    width: 960px;
+    color: #cccccc;
+}
+
+#about_me {
+    margin: 20px 0 0 20px;
+    color: #4aaaa5;
+    background: #ffffff;
+    
+}
