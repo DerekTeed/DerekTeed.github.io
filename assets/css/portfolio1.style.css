@@ -1,0 +1,272 @@
+  * {
+    
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    
+    
+}
+body {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    
+    background:#dddddd;
+    height: 1400px;
+    max-width: 960;
+    align-content: center;
+}
+a:link {
+    text-decoration: none;
+  }
+/*  Header  */
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background: white;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+#h2 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    height: 60px;
+    width: 20%;
+    display: block;
+    padding: auto;
+    position: relative;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px 0 0 0;
+    
+}
+
+
+
+
+
+nav {
+    float: right;
+    line-height: 60px;
+    
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 10px;
+    
+}
+.margin960 {
+    max-width: 960px;
+    height: 100%;
+    
+    
+}
+
+.container2 {
+    align-content: center;
+    width: 960px;
+    height: 1000px;
+    position: absolute;
+    display: block;
+    color: #4aaaa5;
+    background: #ffffff;
+    margin: 200px 0px 50px 0px;
+    border: blue 1px solid;
+}
+
+.gallery {
+    display: grid;
+    object-fit: cover;
+    grid-gap: 5px;
+    width: 860px;
+    height: 500px;
+    align-content: center;
+    margin: 100px 0 0 50px;
+    position: absolute;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 20vw);
+    border: 1px solid red;
+    
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.grid1 {
+    float: left;
+    position: relative;
+     
+     border: 1px solid black;
+    z-index: 0;
+}
+
+#green_footer1 {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    bottom: 50px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+
+.grid2 {
+    float: left;
+    position: relative;
+     
+     border: 1px solid black;
+    z-index: 0;
+
+}
+#green_footer2 {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    bottom: 50px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+.grid3 {
+   
+    float: left;
+    position: relative;
+     
+     border: 1px solid black;
+    z-index: 0;
+
+}
+#green_footer3 {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    bottom: 50px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+.grid4 {
+    float: left;
+    position: relative;
+     
+     border: 1px solid black;
+    z-index: 0;
+
+}
+#green_footer4 {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    bottom: 50px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+.grid5 {
+    float: left;
+    position: relative;
+     
+     border: 1px solid black;
+    z-index: 0;
+
+}
+#green_footer5 {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    bottom: 50px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+.grid6 {
+   
+   
+    float: left;
+    position: relative;
+     
+     border: 1px solid black;
+    z-index: 0;
+}
+#green_footer6 {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    bottom: 50px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+hr {
+    width: 880px;
+    color: #dddddd;
+    margin: 0 0 0 40px;
+    border-width: 2px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: relative;
+    
+}
+
+#about_me {
+    margin: 20px 0 0 20px;
+    color: #4aaaa5;
+    background: #ffffff;
+    width: 20%;
+    position: absolute;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+
+.footer_top {
+    width: 100%;
+    height: 5px;
+    background: teal;
+    
+}
+
+footer {
+    height: 60px;
+    background: grey;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    position: fixed;
+}
+
+.copyright {
+    box-align: center;
+    color: white;
+    width: 100%;
+    font-size: .5em;
+    /* cannot get copyrght at bottom*/
+}
+
+ 
