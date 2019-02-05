@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <style>
+        hr {
+            border-width: 3px;
+        }
+
+        footer {
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+            font-size: .7em;
+        }
+
+        img {
+            height: 16rem;
+            width: 16rem;
+            content: fluid;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-secondary">
+    <nav class="navbar navbar-dark bg-white">
+        <span class="h5 ml-5 bg-dark py-3 px-3 text-white">Derek Teed</span>
+
+        <ul class="nav justify-content-end navbar navbar-dark bg-seconday text-white">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="container my-5 ml-5 bg-white col-sm-8"><br><br>
+        <h3 class="col-sm-3 mx-3 ">Contact</h3>
+        <div><br>
+            <hr class="col-sm-10"><br>
+        </div>
+
+        <form>
+
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" class="form-control" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary my-3">Submit</button>
+        </form>
+    </div>
+    <footer class="page-footer bg-dark font-small blue">
+        <div class="footer-copyright text-center py-3 text-white">© 2019 Copyright
+        </div>
+    </footer>
+
+</body>
