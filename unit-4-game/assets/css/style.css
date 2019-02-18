@@ -1,0 +1,23 @@
+*{
+    
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    color: white;  
+  }
+
+  p {
+    margin: 10px;
+  }
+  #instructions {
+  background-color: teal;
+  
+  }
+  h2 {
+    background: teal;
+    padding: 0 0 5px 0;
+    align-content: center;
+  }
+  .crystal {
+    width: 100%;
+    height:100%;
+  }
